@@ -10,8 +10,6 @@ namespace queue_at_the_store
     {
         static void Main()
         {
-            const string CommandServeClient = "1";
-            const string CommandLookqueue = "2";
 
             int queueCapacity = 10;
             Queue<int> queue = new Queue<int>();
